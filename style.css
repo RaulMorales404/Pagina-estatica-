@@ -1,0 +1,1397 @@
+@media only screen and (max-width: 460px) and (min-width:200px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .menu {
+        height: 150px;
+        width: 100%;
+    }
+    nav ul li a {
+        text-decoration: none;
+        list-style: none;
+        margin: 8px;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        color: #1C1C68;
+    }
+    .ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+    }
+    .logo {
+        font-size: 10px;
+        position: relative;
+        top: 50px;
+        left: 60px;
+    }
+    .img-logo {
+        position: relative;
+        top: -40px;
+        left: -50px;
+        width: 80px;
+        height: 40px;
+    }
+    .b {
+        color: red;
+        font-size: 10px;
+    }
+    .button_right {
+        position: relative;
+        top: 30px;
+        left: 130px;
+    }
+    .row-float {
+        display: flex;
+        height: 50%;
+        width: 100%;
+    }
+    .col-md-1 {
+        text-align: center;
+        position: relative;
+        top: 350px;
+        left: 30px;
+        width: 90%;
+    }
+    .col-md-2 {
+        position: relative;
+        top: -50px;
+        left: -320px;
+        width: 320px;
+        height: 250px;
+    }
+    .col-md-2 img {
+        position: relative;
+        top: 50px;
+        left: 20px;
+        width: 320px;
+        height: 250px;
+    }
+    .title1 {
+        font-size: 25px;
+        margin: 5px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .title2 {
+        font-size: 25px;
+        margin-top: 10px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .text {
+        text-align: center;
+        width: 340px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-top: 30px;
+        color: #1C1C68;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .email {
+        width: 350px;
+        height: 45px;
+        margin-top: 40px;
+        border: 2px solid #9aa0c2;
+        border-radius: 3px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .email::placeholder {
+        color: #DBDBDC;
+    }
+    .button_email {
+        margin-top: 15px;
+        text-align: center;
+        width: 350px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        color: seashell;
+        border-radius: 2px;
+        background: #086af2;
+        border: 2px solid #086af2;
+    }
+    .row-secction {
+        height: 580px;
+        width: 142%;
+        position: relative;
+        top: 550px;
+        left: 0px;
+        background: #f9f8fe;
+        /*#f9f8fe*/
+    }
+    .img-decoration {
+        width: 100%;
+        height: 100%;
+    }
+    .title3 {
+        text-align: center;
+        font-size: 20px;
+        width: 100%;
+        margin-top: 10px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .col-md-3 {
+        position: relative;
+        top: 500px;
+        left: 5px;
+        width: 100%;
+        height: 170%;
+        background: #f9f8fe;
+    }
+    .title4 {
+        position: relative;
+        top: 0px;
+        left: 10px;
+        width: 88%;
+        font-size: 14px;
+        margin-top: 20px;
+        color: #1C1C68;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .text-green {
+        position: relative;
+        top: 45px;
+        left: 120px;
+        margin-top: 10px;
+        width: 170px;
+        color: #62c2af;
+        box-shadow: 0px 1px #62c2af;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .img-arrow {
+        position: relative;
+        top: 1px;
+        left: 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .info-card {
+        border-radius: 3px;
+        background: #ffffff;
+        box-shadow: 1px 2px 6px #E9E9EA;
+        width: 80%;
+        height: 190px;
+        position: relative;
+        top: 110px;
+        left: 37px;
+    }
+    .content-card {
+        margin: 10px;
+        padding: 20px;
+        color: #04103B;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .photo-position {
+        display: flex;
+    }
+    .photo-avatar {
+        margin-top: 10px;
+        border-radius: 360px;
+        width: 40px;
+        height: 40px;
+    }
+    .photo-text {
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+    .photo-p {
+        font-size: 9px;
+    }
+    .col-photo {
+        position: absolute;
+        top: 100px;
+        left: 13px;
+    }
+    .photo-family {
+        width: 389px;
+        height: 350px;
+    }
+    .col-form {
+        position: relative;
+        top: 30%;
+        height: 100%;
+        width: 100%;
+        background: #535b8a;
+    }
+    .cont-form {
+        position: relative;
+        top: 50px;
+        left: 0px;
+        width: 60%;
+        height: 60%;
+    }
+    .title-form {
+        position: relative;
+        top: 0px;
+        left: 60px;
+        text-align: center;
+        width: 120%;
+        font-size: 25px;
+        color: seashell;
+        font-family: 'Raleway', sans-serif;
+    }
+    .text-form {
+        font-weight: bold;
+        position: relative;
+        top: -10px;
+        left: 50px;
+        text-align: center;
+        margin: 10px;
+        padding: 20px;
+        height: 100px;
+        width: 100%;
+        color: #E5E7E9;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .col-form-input {
+        position: relative;
+        top: -155px;
+        left: 55px;
+        width: 100px;
+    }
+    .input-email {
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        border: 1px solid #D6D6D6;
+        border-radius: 3px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .input-email::placeholder {
+        color: #DBDBDC;
+    }
+    .input-button_email {
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+        width: 300px;
+        height: 40px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: seashell;
+        border-radius: 2px;
+        background: #086af2;
+        border: 1px solid #086af2;
+    }
+    .col-fooder {
+        position: relative;
+        top: -45px;
+        left: 0px;
+        width: 100%;
+        height: 730px;
+        font-family: 'Open Sans', sans-serif;
+        color: #E5E7E9;
+        background: #07043b;
+    }
+    .fooder-logo {
+        color: #D6D6D6;
+        position: relative;
+        top: 90px;
+        left: 64px;
+        width: 50px;
+    }
+    .footer-info {
+        position: relative;
+        top: 90px;
+        left: 65px;
+        width: 250px;
+    }
+    .footer-info p {
+        margin: 5px;
+        padding: 5px;
+    }
+    .footer-info-us {
+        position: relative;
+        top: 160px;
+        left: 60px;
+        width: 90px;
+    }
+    .footer-info-us ul li {
+        text-decoration: none;
+        list-style: none;
+        margin: 5px;
+    }
+    .footer-info-scope {
+        position: relative;
+        top: 248px;
+        left: 60px;
+        width: 150px;
+    }
+    .footer-info-scope ul li {
+        margin: 5px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .footer-red {
+        position: relative;
+        top: 353px;
+        left: 150px;
+        width: 150px;
+    }
+    .footer-circle {
+        display: inline-block;
+        border: 1px solid #ffffff;
+        border-radius: 360px;
+        margin: 5px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+    }
+    .footer-circle span {
+        position: relative;
+        top: 1.5px;
+        left: 0px;
+        font-size: 12px;
+    }
+    .fooder-phone {
+        position: relative;
+        top: 3px;
+        left: -8px;
+    }
+    .fooder-email {
+        position: relative;
+        top: 3px;
+        left: -8px;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width:400px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .menu {
+        height: 150px;
+        width: 100%;
+    }
+    nav ul li a {
+        text-decoration: none;
+        list-style: none;
+        margin: 8px;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        color: #1C1C68;
+    }
+    .ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+    }
+    .logo {
+        font-size: 10px;
+        position: relative;
+        top: 50px;
+        left: 60px;
+    }
+    .img-logo {
+        position: relative;
+        top: -40px;
+        left: -50px;
+        width: 80px;
+        height: 40px;
+    }
+    .b {
+        color: red;
+        font-size: 10px;
+    }
+    .button_right {
+        position: relative;
+        top: 30px;
+        left: 130px;
+    }
+    .row-float {
+        display: flex;
+        height: 50%;
+        width: 100%;
+    }
+    .col-md-1 {
+        text-align: center;
+        position: relative;
+        top: 350px;
+        left: 30px;
+        width: 90%;
+    }
+    .col-md-2 {
+        position: relative;
+        top: -50px;
+        left: -320px;
+        width: 320px;
+        height: 250px;
+    }
+    .col-md-2 img {
+        position: relative;
+        top: 50px;
+        left: 20px;
+        width: 320px;
+        height: 250px;
+    }
+    .title1 {
+        font-size: 25px;
+        margin: 5px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .title2 {
+        font-size: 25px;
+        margin-top: 10px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .text {
+        text-align: center;
+        width: 340px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-top: 30px;
+        color: #1C1C68;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .email {
+        width: 350px;
+        height: 45px;
+        margin-top: 40px;
+        border: 2px solid #9aa0c2;
+        border-radius: 3px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .email::placeholder {
+        color: #DBDBDC;
+    }
+    .button_email {
+        margin-top: 15px;
+        text-align: center;
+        width: 350px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        color: seashell;
+        border-radius: 2px;
+        background: #086af2;
+        border: 2px solid #086af2;
+    }
+    .row-secction {
+        height: 580px;
+        width: 100%;
+        position: relative;
+        top: 550px;
+        left: 0px;
+        background: #f9f8fe;
+        /*#f9f8fe*/
+    }
+    .img-decoration {
+        width: 100%;
+        height: 100%;
+    }
+    .title3 {
+        text-align: center;
+        font-size: 20px;
+        width: 100%;
+        margin-top: 10px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .col-md-3 {
+        position: relative;
+        top: 500px;
+        left: 5px;
+        width: 98%;
+        height: 170%;
+        background: #f9f8fe;
+    }
+    .title4 {
+        position: relative;
+        top: 0px;
+        left: 10px;
+        width: 88%;
+        font-size: 14px;
+        margin-top: 20px;
+        color: #1C1C68;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .text-green {
+        position: relative;
+        top: 45px;
+        left: 120px;
+        margin-top: 10px;
+        width: 170px;
+        color: #62c2af;
+        box-shadow: 0px 1px #62c2af;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .img-arrow {
+        position: relative;
+        top: 1px;
+        left: 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .info-card {
+        border-radius: 3px;
+        background: #ffffff;
+        box-shadow: 1px 2px 6px #E9E9EA;
+        width: 80%;
+        height: 190px;
+        position: relative;
+        top: 110px;
+        left: 37px;
+    }
+    .content-card {
+        margin: 10px;
+        padding: 20px;
+        color: #04103B;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .photo-position {
+        display: flex;
+    }
+    .photo-avatar {
+        margin-top: 10px;
+        border-radius: 360px;
+        width: 40px;
+        height: 40px;
+    }
+    .photo-text {
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+    .photo-p {
+        font-size: 9px;
+    }
+    .col-photo {
+        position: absolute;
+        top: 100px;
+        left: 13px;
+    }
+    .photo-family {
+        width: 390px;
+        height: 350px;
+    }
+    .col-form {
+        position: relative;
+        top: 30%;
+        height: 100%;
+        width: 100%;
+        background: #535b8a;
+    }
+    .cont-form {
+        position: relative;
+        top: 50px;
+        left: 0px;
+        width: 60%;
+        height: 60%;
+    }
+    .title-form {
+        position: relative;
+        top: 0px;
+        left: 60px;
+        text-align: center;
+        width: 120%;
+        font-size: 25px;
+        color: seashell;
+        font-family: 'Raleway', sans-serif;
+    }
+    .text-form {
+        font-weight: bold;
+        position: relative;
+        top: -10px;
+        left: 50px;
+        text-align: center;
+        margin: 10px;
+        padding: 20px;
+        height: 100px;
+        width: 100%;
+        color: #E5E7E9;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .col-form-input {
+        position: relative;
+        top: -155px;
+        left: 55px;
+        width: 100px;
+    }
+    .input-email {
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        border: 1px solid #D6D6D6;
+        border-radius: 3px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .input-email::placeholder {
+        color: #DBDBDC;
+    }
+    .input-button_email {
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+        width: 300px;
+        height: 40px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: seashell;
+        border-radius: 2px;
+        background: #086af2;
+        border: 1px solid #086af2;
+    }
+    .col-fooder {
+        position: relative;
+        top: -45px;
+        left: 0px;
+        width: 100%;
+        height: 730px;
+        font-family: 'Open Sans', sans-serif;
+        color: #E5E7E9;
+        background: #07043b;
+    }
+    .fooder-logo {
+        color: #D6D6D6;
+        position: relative;
+        top: 90px;
+        left: 64px;
+        width: 50px;
+    }
+    .footer-info {
+        position: relative;
+        top: 90px;
+        left: 65px;
+        width: 250px;
+    }
+    .footer-info p {
+        margin: 5px;
+        padding: 5px;
+    }
+    .footer-info-us {
+        position: relative;
+        top: 160px;
+        left: 60px;
+        width: 90px;
+    }
+    .footer-info-us ul li {
+        text-decoration: none;
+        list-style: none;
+        margin: 5px;
+    }
+    .footer-info-scope {
+        position: relative;
+        top: 248px;
+        left: 60px;
+        width: 150px;
+    }
+    .footer-info-scope ul li {
+        margin: 5px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .footer-red {
+        position: relative;
+        top: 353px;
+        left: 150px;
+        width: 150px;
+    }
+    .footer-circle {
+        display: inline-block;
+        border: 1px solid #ffffff;
+        border-radius: 360px;
+        margin: 5px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+    }
+    .footer-circle span {
+        position: relative;
+        top: 1.5px;
+        left: 0px;
+        font-size: 12px;
+    }
+    .fooder-phone {
+        position: relative;
+        top: 3px;
+        left: -8px;
+    }
+    .fooder-email {
+        position: relative;
+        top: 3px;
+        left: -8px;
+    }
+}
+
+@media only screen and (max-width: 1024px)and (min-width:600px) {
+    /* For tablets: */
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .menu {
+        height: 150px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        list-style: none;
+        margin: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #1C1C68;
+    }
+    .ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+    }
+    .logo {
+        position: relative;
+        top: 40px;
+        left: 46px;
+        width: 150px;
+    }
+    .img-logo {
+        position: relative;
+        top: -5px;
+        left: -5px;
+        width: 190px;
+        height: 90px;
+    }
+    .button_right {
+        position: relative;
+        top: 85px;
+        left: 115%;
+    }
+    .row-float {
+        display: flex;
+        height: 50%;
+        width: 150%;
+    }
+    .col-md-1 {
+        position: relative;
+        top: 90px;
+        left: 50px;
+        width: 150%;
+    }
+    .col-md-2 img {
+        position: relative;
+        top: 20px;
+        left: 150px;
+        width: 590px;
+        height: 105%;
+    }
+    .title1 {
+        width: 150%;
+        font-size: 35px;
+        margin: 5px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .title2 {
+        font-size: 35px;
+        margin-top: 10px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .text {
+        width: 438px;
+        font-size: 14px;
+        margin-top: 20px;
+        color: #1C1C68;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .email {
+        width: 260px;
+        height: 28px;
+        margin-top: 20px;
+        border: 1px solid #D6D6D6;
+        border-radius: 3px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .email::placeholder {
+        color: #DBDBDC;
+    }
+    .button_email {
+        text-align: center;
+        margin-left: 6px;
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: seashell;
+        border-radius: 2px;
+        background: #086af2;
+        border: 1px solid #086af2;
+    }
+    .row-secction {
+        height: 800px;
+        width: 182%;
+        position: relative;
+        top: 150px;
+        left: 0px;
+        background: #f9f8fe;
+    }
+    .img-decoration {
+        width: 100%;
+        height: 100%;
+    }
+    .title3 {
+        font-size: 35px;
+        margin-top: 10px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .col-md-3 {
+        position: relative;
+        top: 70px;
+        left: 50px;
+        width: 40%;
+        height: 50%;
+    }
+    .title4 {
+        width: 438px;
+        font-size: 14px;
+        margin-top: 20px;
+        color: #1C1C68;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .text-green {
+        margin-top: 10px;
+        width: 170px;
+        color: #62c2af;
+        box-shadow: 0px 1px #62c2af;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .img-arrow {
+        position: relative;
+        top: 1px;
+        left: 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .info-card {
+        border-radius: 3px;
+        background: #ffffff;
+        box-shadow: 1px 2px 6px #E9E9EA;
+        width: 55%;
+        position: relative;
+        top: 30px;
+        left: 0px;
+    }
+    .content-card {
+        margin: 10px;
+        padding: 20px;
+        color: #04103B;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .photo-position {
+        display: flex;
+    }
+    .photo-avatar {
+        margin-top: 10px;
+        border-radius: 360px;
+        width: 40px;
+        height: 40px;
+    }
+    .photo-text {
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+    .photo-p {
+        font-size: 9px;
+    }
+    .col-photo {
+        position: absolute;
+        top: 250px;
+        left: 750px;
+    }
+    .photo-family {
+        width: 650px;
+        height: 450px;
+    }
+    .col-form {
+        position: relative;
+        top: 25%;
+        height: 32%;
+        background: #535b8a;
+    }
+    .cont-form {
+        position: relative;
+        top: 50px;
+        left: 0px;
+    }
+    .title-form {
+        position: relative;
+        top: 30px;
+        left: 64px;
+        width: 60%;
+        font-size: 30px;
+        color: seashell;
+        font-family: 'Raleway', sans-serif;
+    }
+    .text-form {
+        position: relative;
+        top: 15px;
+        left: 35px;
+        margin: 10px;
+        padding: 20px;
+        height: 100px;
+        width: 30%;
+        color: #E5E7E9;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .col-form-input {
+        position: relative;
+        top: -129px;
+        left: 60%;
+        width: 50px;
+    }
+    .input-email {
+        width: 420px;
+        height: 30px;
+        margin-top: 20px;
+        border: 1px solid #D6D6D6;
+        border-radius: 3px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .input-email::placeholder {
+        color: #DBDBDC;
+    }
+    .input-button_email {
+        margin-top: 10px;
+        width: 180px;
+        height: 30px;
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: seashell;
+        border-radius: 2px;
+        background: #086af2;
+        border: 1px solid #086af2;
+    }
+    .col-fooder {
+        position: relative;
+        top: -45px;
+        left: 0px;
+        width: 100%;
+        height: 365px;
+        font-family: 'Open Sans', sans-serif;
+        color: #E5E7E9;
+        background: #07043b;
+    }
+    .fooder-logo {
+        color: #D6D6D6;
+        position: relative;
+        top: 90px;
+        left: 64px;
+        width: 50px;
+    }
+    .footer-info {
+        position: relative;
+        top: 90px;
+        left: 65px;
+        width: 250px;
+    }
+    .footer-info p {
+        margin: 5px;
+        padding: 5px;
+    }
+    .footer-info-us {
+        position: relative;
+        top: 21px;
+        left: 480px;
+        width: 90px;
+    }
+    .footer-info-us ul li {
+        text-decoration: none;
+        list-style: none;
+        margin: 5px;
+    }
+    .footer-info-scope {
+        position: relative;
+        top: -88px;
+        left: 750px;
+        width: 150px;
+    }
+    .footer-info-scope ul li {
+        margin: 5px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .footer-red {
+        position: relative;
+        top: -153px;
+        left: 980px;
+        width: 150px;
+    }
+    .footer-circle {
+        display: inline-block;
+        border: 1px solid #ffffff;
+        border-radius: 360px;
+        margin: 5px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+    }
+    .footer-circle span {
+        position: relative;
+        top: 1.5px;
+        left: 0px;
+        font-size: 12px;
+    }
+    .fooder-phone {
+        position: relative;
+        top: 3px;
+        left: -8px;
+    }
+    .fooder-email {
+        position: relative;
+        top: 3px;
+        left: -8px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /* For desktop: */
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .menu {
+        height: 150px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        list-style: none;
+        margin: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #1C1C68;
+    }
+    .ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+    }
+    .logo {
+        position: relative;
+        top: 40px;
+        left: 46px;
+        width: 150px;
+    }
+    .img-logo {
+        position: relative;
+        top: -50px;
+        left: -30px;
+        width: 190px;
+        height: 90px;
+    }
+    .button_right {
+        position: relative;
+        top: 55px;
+        left: 65%;
+    }
+    .row-float {
+        display: flex;
+        height: 50%;
+        width: 100%;
+    }
+    .col-md-1 {
+        position: relative;
+        top: 90px;
+        left: 50px;
+        width: 40%;
+    }
+    .col-md-2 img {
+        position: relative;
+        top: 10px;
+        left: 90px;
+        width: 110%;
+        height: 100%;
+    }
+    .title1 {
+        font-size: 35px;
+        margin: 5px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .title2 {
+        font-size: 35px;
+        margin-top: 10px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .text {
+        width: 438px;
+        font-size: 14px;
+        margin-top: 20px;
+        color: #1C1C68;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .email {
+        width: 260px;
+        height: 28px;
+        margin-top: 20px;
+        border: 1px solid #D6D6D6;
+        border-radius: 3px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .email::placeholder {
+        color: #DBDBDC;
+    }
+    .button_email {
+        text-align: center;
+        margin-left: 6px;
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: seashell;
+        border-radius: 2px;
+        background: #086af2;
+        border: 1px solid #086af2;
+    }
+    .row-secction {
+        height: 800px;
+        width: 100%;
+        position: relative;
+        top: 150px;
+        left: 0px;
+        background: #f9f8fe;
+        /*#f9f8fe*/
+    }
+    .img-decoration {
+        width: 100%;
+        height: 100%;
+    }
+    .title3 {
+        font-size: 35px;
+        margin-top: 10px;
+        color: #04103B;
+        font-family: 'Raleway', sans-serif;
+    }
+    .col-md-3 {
+        position: relative;
+        top: 70px;
+        left: 50px;
+        width: 40%;
+        height: 50%;
+    }
+    .title4 {
+        width: 438px;
+        font-size: 14px;
+        margin-top: 20px;
+        color: #1C1C68;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .text-green {
+        margin-top: 10px;
+        width: 170px;
+        color: #62c2af;
+        box-shadow: 0px 1px #62c2af;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .img-arrow {
+        position: relative;
+        top: 1px;
+        left: 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .info-card {
+        border-radius: 3px;
+        background: #ffffff;
+        box-shadow: 1px 2px 6px #E9E9EA;
+        width: 55%;
+        position: relative;
+        top: 30px;
+        left: 0px;
+    }
+    .content-card {
+        margin: 10px;
+        padding: 20px;
+        color: #04103B;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .photo-position {
+        display: flex;
+    }
+    .photo-avatar {
+        margin-top: 10px;
+        border-radius: 360px;
+        width: 40px;
+        height: 40px;
+    }
+    .photo-text {
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+    .photo-p {
+        font-size: 9px;
+    }
+    .col-photo {
+        position: absolute;
+        top: 250px;
+        left: 740px;
+    }
+    .photo-family {
+        width: 600px;
+        height: 450px;
+    }
+    .col-form {
+        position: relative;
+        top: 25%;
+        height: 32%;
+        background: #535b8a;
+    }
+    .cont-form {
+        position: relative;
+        top: 50px;
+        left: 0px;
+    }
+    .title-form {
+        position: relative;
+        top: 30px;
+        left: 64px;
+        width: 60%;
+        font-size: 30px;
+        color: seashell;
+        font-family: 'Raleway', sans-serif;
+    }
+    .text-form {
+        position: relative;
+        top: 15px;
+        left: 35px;
+        margin: 10px;
+        padding: 20px;
+        height: 100px;
+        width: 30%;
+        color: #E5E7E9;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .col-form-input {
+        position: relative;
+        top: -129px;
+        left: 60%;
+        width: 50px;
+    }
+    .input-email {
+        width: 420px;
+        height: 30px;
+        margin-top: 20px;
+        border: 1px solid #D6D6D6;
+        border-radius: 3px;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .input-email::placeholder {
+        color: #DBDBDC;
+    }
+    .input-button_email {
+        margin-top: 10px;
+        width: 180px;
+        height: 30px;
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: seashell;
+        border-radius: 2px;
+        background: #086af2;
+        border: 1px solid #086af2;
+    }
+    .col-fooder {
+        position: relative;
+        top: -45px;
+        left: 0px;
+        width: 100%;
+        height: 365px;
+        font-family: 'Open Sans', sans-serif;
+        color: #E5E7E9;
+        background: #07043b;
+    }
+    .fooder-logo {
+        color: #D6D6D6;
+        position: relative;
+        top: 90px;
+        left: 64px;
+        width: 50px;
+    }
+    .footer-info {
+        position: relative;
+        top: 90px;
+        left: 65px;
+        width: 250px;
+    }
+    .footer-info p {
+        margin: 5px;
+        padding: 5px;
+    }
+    .footer-info-us {
+        position: relative;
+        top: 21px;
+        left: 480px;
+        width: 90px;
+    }
+    .footer-info-us ul li {
+        text-decoration: none;
+        list-style: none;
+        margin: 5px;
+    }
+    .footer-info-scope {
+        position: relative;
+        top: -88px;
+        left: 750px;
+        width: 150px;
+    }
+    .footer-info-scope ul li {
+        margin: 5px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .footer-red {
+        position: relative;
+        top: -153px;
+        left: 980px;
+        width: 150px;
+    }
+    .footer-circle {
+        display: inline-block;
+        border: 1px solid #ffffff;
+        border-radius: 360px;
+        margin: 5px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+    }
+    .footer-circle span {
+        position: relative;
+        top: 1.5px;
+        left: 0px;
+        font-size: 12px;
+    }
+    .fooder-phone {
+        position: relative;
+        top: 3px;
+        left: -8px;
+    }
+    .fooder-email {
+        position: relative;
+        top: 3px;
+        left: -8px;
+    }
+}
